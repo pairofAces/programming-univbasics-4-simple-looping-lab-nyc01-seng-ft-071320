@@ -18,6 +18,8 @@ def loop_message_n_times(message, number)
 end
 
 def output_array(array)
+  counter = 0
+  while counter <
   
   
   
