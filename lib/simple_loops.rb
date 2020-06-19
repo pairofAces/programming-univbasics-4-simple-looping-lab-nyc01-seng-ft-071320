@@ -9,11 +9,12 @@ def loop_message_five_times(message)
    end
  end
 
-def loop_message_n_times(message, number)
+def loop_message_n_times(message, n)
   message = "Hello Moon."
-  while number <= 5 do
+  n = 0
+  while n <= 5 do
     puts message
-    number += 1
+    n += 1
   end
 end
 
